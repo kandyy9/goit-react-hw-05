@@ -1,0 +1,82 @@
+.detailsWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.backLink {
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+.backLink:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.poster {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textContent {
+    max-width: 600px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.overview {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.subHeading {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.genres,
+.rating {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #4fa94d;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.noMovie {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #d9534f;
+    margin-top: 50px;
+}

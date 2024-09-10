@@ -1,0 +1,58 @@
+.cardWrapper {
+    padding: 15px;
+    background-color: rgba(157, 157, 157, 0.47);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardWrapper:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.contentImage {
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fallbackCard {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background-color: #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fallbackMessage {
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+}
+
+.movieTitle {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2e6ab1;
+    transition: color 0.2s ease;
+}
+
+.movieTitle:hover {
+    color: #4fa94d;
+}
